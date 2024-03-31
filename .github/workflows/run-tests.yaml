@@ -20,11 +20,11 @@ jobs:
         with:
           node-version: 20.9.0
 
-      - name: deps
+      - name: Deps
         run: |
           yarn
           yarn build
 
-      - name: parser
+      - name: Test
         run: |
           yarn test
